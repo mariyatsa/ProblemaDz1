@@ -25,6 +25,7 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void test3() { // Покупка на 1500, просит докупить еще на 500
         CashbackHackService service = new CashbackHackService();
@@ -34,6 +35,7 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void test4() { // Покупка на 1000 руб. Если пользователь купил ровно на 1000 рублей,
         // то приложение не должно ему говорить, что нужно купить ещё на 1000.
